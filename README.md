@@ -4,7 +4,7 @@ A modern, lightweight progress-tracking web app built with React, Vite, and Tail
 
 **Status:** Frontend-ready (Vite + Tailwind). Data is currently stored in browser `localStorage`. For multi-device sync and user accounts, see the Full-Stack Roadmap below.
 
-**Live preview:** Use `npm run dev` and open the URL printed by Vite (typically `http://localhost:5173`).
+**Live preview:** Use `npm run dev` and open the URL printed by Vite.
 
 **Tech stack:**
 - React 18
@@ -47,7 +47,7 @@ npm install
 npm run dev
 ```
 
-Open your browser and navigate to `http://localhost:5173` (or the port shown in your terminal).
+Open your browser and navigate to the port shown in your terminal).
 
 ## 🛠️ Development Commands
 
@@ -64,36 +64,6 @@ npm run preview
 # Start server (same as dev)
 npm start
 ```
-
-## 📦 Production Deployment
-
-### Build the project
-```bash
-npm run build
-```
-
-This generates a `dist/` folder with optimized production files.
-
-### Deploy to Vercel (Recommended)
-```bash
-# Install Vercel CLI
-npm i -g vercel
-
-# Deploy
-vercel
-```
-
-### Deploy to Netlify
-1. Build: `npm run build`
-2. Drag the `dist/` folder to [Netlify Drop](https://app.netlify.com/drop)
-   
-Or connect your GitHub repo for automatic deployments.
-
-### Deploy to Cloudflare Pages
-1. Push to GitHub
-2. Connect your repo to Cloudflare Pages
-3. Set build command: `npm run build`
-4. Set publish directory: `dist/`
 
 ## 🏗️ Project Structure
 
@@ -159,32 +129,6 @@ To convert this to a full-stack application with user accounts, data persistence
 2. **Authentication**: JWT tokens or email-based auth
 3. **Database**: User accounts, encrypted data storage
 4. **Deployment**: Docker + Render, Railway, or DigitalOcean
-
-See `FULL_STACK_ROADMAP.md` for detailed steps.
-
-## 🧪 Testing & Quality
-
-```bash
-# Build and test locally
-npm run build
-npm run preview
-```
-
-Open the preview URL in your browser and test all features.
-
-## 📊 Performance Metrics
-
-- **CSS Bundle**: 3.82 kB (gzip) — optimized Tailwind
-- **JS Bundle**: 53.64 kB (gzip) — React + Lucide icons
-- **Total**: ~57.5 kB (gzip)
-- **Build Time**: ~3.4 seconds
-
-## 🌐 Browser Support
-
-- Chrome/Edge 90+
-- Firefox 88+
-- Safari 14+
-- Mobile browsers (iOS Safari, Chrome Mobile)
 
 ## 🔐 Security Notes
 
