@@ -1,0 +1,28 @@
+/* Tailwind CSS - Processed by PostCSS */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom utility classes can be added below */
+@layer components {
+  .btn-primary {
+    @apply px-6 py-3 rounded-2xl font-bold text-white transition-all transform hover:scale-105 shadow-lg;
+    background-color: #92487A;
+  }
+  
+  .btn-secondary {
+    @apply px-6 py-3 rounded-2xl font-bold text-white transition-all transform hover:scale-105 shadow-lg;
+    background-color: #E49BA6;
+  }
+  
+  .card-primary {
+    @apply bg-white/80 backdrop-blur-xl p-8 rounded-3xl shadow-2xl border-2;
+    border-color: #92487A;
+  }
+  
+  .card-secondary {
+    @apply bg-white/80 backdrop-blur-xl p-8 rounded-3xl shadow-2xl border-2;
+    border-color: #E49BA6;
+  }
+}
