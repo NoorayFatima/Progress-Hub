@@ -1,10 +1,10 @@
 # 📊 Progress Hub
 
-A modern, lightweight progress-tracking web app built with React, Vite, and Tailwind CSS. Progress Hub helps you plan weekly activities, track habits and streaks, manage daily and pending tasks, set goals, and keep a personal journal — all in a single, fast, and responsive interface.
+A modern, lightweight progress-tracking web app built with React, Vite, and Tailwind CSS. Progress Hub helps you plan weekly activities, track habits and streaks, manage daily and pending tasks, set goals, and keep a personal journal all in a single, fast, and responsive interface.
 
 **Status:** Frontend-ready (Vite + Tailwind). Data is currently stored in browser `localStorage`. For multi-device sync and user accounts, see the Full-Stack Roadmap below.
 
-**Live preview:** Use `npm run dev` and open the URL printed by Vite (typically `https://progress-hub.netlify.app/`).
+**Live preview:** Use `npm run dev` and open the URL printed by Vite.
 
 **Tech stack:**
 - React 18
