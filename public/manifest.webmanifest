@@ -1,0 +1,25 @@
+{
+  "name": "Progress Hub",
+  "short_name": "ProgressHub",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#F5F3FF",
+  "theme_color": "#7C3AED",
+  "description": "Track goals, habits, weekly activities, and journal entries anywhere.",
+  "icons": [
+    {
+      "src": "/icons/progress-hub-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/svg+xml/png",
+      "purpose": "any"
+    },
+    {
+       "src": "/icons/progress-hub-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/svg+xml/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
+
